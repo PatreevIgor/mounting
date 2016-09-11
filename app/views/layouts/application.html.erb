@@ -5,11 +5,10 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="keywords" content="">
   <meta name="description" content="">
-  <link href="./style.css" rel="stylesheet" type="text/css">
-  <link href="./aaa.css" rel="stylesheet" type="text/css">
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+  <link href="/assets/style.css" rel="stylesheet" type="text/css">
+<!--   <link href="/assets/style.css" rel="stylesheet" type="text/css"> -->
+  <link href="/assets/aaa.css" rel="stylesheet" type="text/css">
+
 </head>
 
 
@@ -28,9 +27,9 @@
 <!-- #navcontainer -->
 	<div id="navcontainer">
 		<ul id="navlist">
-			<li id="active"><a href="http://templates.cooltemplates.ru/Probujdenie/index.html#">Главная</a></li>
-			<li><a href="http://templates.cooltemplates.ru/Probujdenie/index.html#">Мембранная кровля</a></li>
-			<li><a href="http://templates.cooltemplates.ru/Probujdenie/index.html#">Контакты</a></li>
+			<li ><a href="/">Главная</a></li>
+			<li><a href="/mounting">Мембранная кровля</a></li>
+			<li><a href="/telephone">Контакты</a></li>
 		</ul>
 	</div><div class="inner_copy"></div>
 <!-- / #navcontainer -->
@@ -60,59 +59,15 @@
 		<h3>Calendar</h3>
 		<div class="title_back">	
 			<div id="calendar">
-				<table id="calendar2" summary="Calendar">
-					<caption>January 2012</caption>
-					<thead>
-						<tr>
-							<th abbr="Monday" scope="col" title="Monday">M</th><th abbr="Tuesday" scope="col" title="Tuesday">T</th><th abbr="Wednesday" scope="col" title="Wednesday">W</th><th abbr="Thursday" scope="col" title="Thursday">T</th><th abbr="Friday" scope="col" title="Friday">F</th><th abbr="Saturday" scope="col" title="Saturday">S</th><th abbr="Sunday" scope="col" title="Sunday">S</th>
-						</tr>
-					</thead>
-					<tfoot>
-						<tr><td abbr="Des" colspan="3" id="prev"><a href="http://templates.cooltemplates.ru/Probujdenie/index.html#">« Des</a></td><td class="pad">&nbsp;</td><td abbr="Feb" colspan="3" id="next" class="pad"><a href="http://templates.cooltemplates.ru/Probujdenie/index.html#">Feb »</a></td></tr>
-					</tfoot>
-					<tbody>
-						<tr><td colspan="2" class="pad">&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr>
-						<tr><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td></tr>
-						<tr><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td></tr>
-						<tr><td>20</td><td id="now">21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td></tr>
-						<tr><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td class="pad" colspan="2">&nbsp;</td></tr>
-					</tbody>
-				</table>
+
 			</div>
 		</div>
 	</div>
+
 <!-- / #sidebar1 -->
-<!-- #mainContent -->
-	<div id="mainContent">
-		<h1>Мембранная кровля</h1>
-		<p>Если раньше при выборе покрытия для плоской кровли предпочтение отдавалось битумным рулонным материалам, то сейчас все большую популярность приобретают мембранные кровельные материалы. Наплавляемые битумные материалы постепенно утрачивают свои позиции на рынке плоских кровель. И это вполне логично, так как <strong>кровельные мембраны</strong> - это материал нового поколения, который обладает рядом весомых преимуществ. </p>
-		<p>Наша компания «КитоПриус» имеет большой опыт в монтаже мембранных кровель. Работа с таким современным материалом имеет много нюансов, знать которые может только специалист. Выбирая нас, вы можете не беспокоить о качестве и сроках. За 15-летнюю историю развития нашей фирмы мы имеем множество наград, благодарственных писем от самых требовательных клиентов. Наши специалисты имеют опыт работы в ближнем зарубежье. Мы знаем о мембранной кровле все!	</p>
-		<p class="fcenter"><img src="images/title1.jpg" 
-   width="500" height="181" alt="Мембранная кровля"></p>
+<%= yield %>
+	
 
-		<h2>What does Flash Template mean?</h2>
-		<p>
-	Мембранная кровля в Беларуси пока не имеет большого распространения, хотя в Европе и Америке она используется повсеместно. Этот материал идеально подходит для устройства плоских кровель на таких объектах, как:
-	 <ul>
-     <li>промышленные здания;</li>
-     <li>складские и логистические комплексы;</li>
-     <li>торгово-развлекательные комплексы;</li>
-     <li>гостиницы;</li>
-     <li>спортивные сооружения;</li>
-     <li>гостиницы;</li>
-     <li>многоуровлевые парковки, тоннели;</li>
-     <li>подземные сооружения;</li>
-     <li>жилые дома и многие другие объекты.</li>
-
-   </ul>
-		</p>
-		<!-- <h2>Your Flash Site will be look professional!</h2>
-		<p>
-			An extensive number of <strong>unique Flash Templates</strong> is at your service. All templates on our site were created specially for you! Our independent designers created flash professional templates. Also our templates are unique. It means you can use our flash templates to create your own site!
-		</p>
-		<p class="date"><img src="./comment(1).gif" alt=""> <a href="http://templates.cooltemplates.ru/Probujdenie/index.html#">Comments(2)</a> <img src="./timeicon.gif" alt=""> 21.02.</p>
-	</div> -->
-<!-- / #mainContent -->
 	<br class="clearfloat">
 <!-- #footer -->
 <div id="footer">
@@ -123,7 +78,7 @@
 </div>
 
 <!-- / #footer -->
-</div>
+
 <!-- / #container -->
 
 
@@ -137,10 +92,6 @@
 
 
 
-
-
-
-<%= yield %>
 
 </body>
 </html>

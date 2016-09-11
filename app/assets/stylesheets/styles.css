@@ -11,7 +11,7 @@ html{
 }
 
 body {
-    background: url(/static/images/before_reg_bg.png) repeat-x top left;
+    background: url(/assets/before_reg_bg.png) repeat-x top left;
 }
 
 h2 {
@@ -105,7 +105,7 @@ button {
     border: 1px solid #d9d9d9;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
-    background: url(/static/images/button-simp.gif) repeat-x bottom left;
+    background: url(/assets/button-simp.gif) repeat-x bottom left;
     font-size: 11px;
     color: #0387d8;
     cursor: pointer;
@@ -118,7 +118,7 @@ button {
     border: 1px solid #d9d9d9;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
-    background: url(/static/images/button-simp.gif) repeat-x bottom left;
+    background: url(/assets/button-simp.gif) repeat-x bottom left;
     font-size: 11px;
     color: #0387d8;
     text-decoration: none;
@@ -131,7 +131,7 @@ button {
     text-align:center;
     display:block;
     line-height:20px;
-    background:url('/static/images/button_content.gif') repeat-x top left;
+    background:url('/assets/button_content.gif') repeat-x top left;
     cursor:pointer;
     float:left;
     padding:0 10px;
@@ -139,14 +139,14 @@ button {
     font-family:Arial, tahoma, sans-serif;
 }
 .button_left{
-    background:url('/static/images/button_left.gif') no-repeat top left;
+    background:url('/assets/button_left.gif') no-repeat top left;
     display:block;
     height:20px;
     float:left;
     width:4px;
 }
 .button_right{
-    background:url('/static/images/button_right.gif') no-repeat top right;
+    background:url('/assets/button_right.gif') no-repeat top right;
     display:block;
     height:20px;
     float:left;
@@ -241,7 +241,7 @@ h1#logo a{
     color:#fff;
     border-left-color: #0486d0;
     border-bottom: none;
-    background: url(/static/images/top_menu_active_item.png) no-repeat center center;
+    background: url(/assets/top_menu_active_item.png) no-repeat center center;
 }
 
 #userMenu {
@@ -339,7 +339,7 @@ h1#logo a{
 
 .vertical-menu li {
     padding-left: 12px;
-    background: url(/static/images/vertical_menu_li.gif) no-repeat 0 7px;
+    background: url(/assets/vertical_menu_li.gif) no-repeat 0 7px;
     line-height: 22px;
     list-style: none;
 }
@@ -395,7 +395,7 @@ h1#logo a{
     width: 92px;
     margin-right: 11px;
     display: inline-block;
-    background: url(/static/images/label.gif) no-repeat center left;
+    background: url(/assets/label.gif) no-repeat center left;
 }
 
 #seachForms select{
@@ -653,7 +653,7 @@ select.counter {
 .premium-links b{
     line-height:22px;
     padding-left:12px;
-    background:url(/static/images/vertical_menu_li.gif) no-repeat scroll 0 3px;
+    background:url(/assets/vertical_menu_li.gif) no-repeat scroll 0 3px;
 }
 
 #premiumsFromForeign {
@@ -765,7 +765,7 @@ select.counter {
     list-style:none;
 }
 .menu li {
-    background:url("/static/images/menu_arrow.gif") no-repeat scroll 0 5px transparent;
+    background:url("/assets/menu_arrow.gif") no-repeat scroll 0 5px transparent;
     padding-bottom:8px;
     padding-left:10px;
 }
@@ -783,7 +783,7 @@ select.counter {
     height:22px;
 }
 #frameContainer{
-    background: url(/static/images/header_back.jpg) repeat-x top left #0387D9;
+    background: url(/assets/header_back.jpg) repeat-x top left #0387D9;
 }
 #frameContainer #beforeReg{
 }
@@ -880,17 +880,17 @@ p.validation_errors{
 }
 #download_button{
     padding-left:0;
-    background:url('/static/images/button_content_blue.gif') repeat-x top left;
+    background:url('/assets/button_content_blue.gif') repeat-x top left;
     margin: 5px 0 0 10px;
     float:right;
 }
 #download_button .button_left_bg{
-    background:url('/static/images/button_left_blue.gif') no-repeat top left;
+    background:url('/assets/button_left_blue.gif') no-repeat top left;
     margin-left: -1px;
     float:left;
 }
 #download_button .button_right_bg{
-    background:url('/static/images/button_right_blue.gif') no-repeat top right;
+    background:url('/assets/button_right_blue.gif') no-repeat top right;
     color: #0387D8;
     cursor: pointer;
     display: block;
@@ -1421,25 +1421,25 @@ p.link {
 }
 
 .news .info .tw {
-    background: url("/static/images/share-twitter.gif") no-repeat scroll left center transparent;
+    background: url("/assets/share-twitter.gif") no-repeat scroll left center transparent;
     padding-left: 23px;
 }
 
 .news .info .fb {
-    background: url("/static/images/share-facebook.gif") no-repeat scroll left center transparent;
+    background: url("/assets/share-facebook.gif") no-repeat scroll left center transparent;
     padding-left: 23px;
 }
 
 .news .info .comments {
-    background: url("/static/images/comment.png") no-repeat scroll left 4px transparent;
+    background: url("/assets/comment.png") no-repeat scroll left 4px transparent;
 }
 
 .news .info .bury {
-    background: url("/static/images/cross.png") no-repeat scroll left 4px transparent;
+    background: url("/assets/cross.png") no-repeat scroll left 4px transparent;
 }
 
 .news .info .summary {
-    background: url("/static/images/summary-marker.gif") no-repeat scroll left center transparent;
+    background: url("/assets/summary-marker.gif") no-repeat scroll left center transparent;
     font-weight: bold;
     padding-left: 11px;
 }
