@@ -24,6 +24,16 @@
 #   <<: *default
 #   database: db/production.sqlite3
 
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: db_for_develop
+  username: root
+  password: 
+  host: 127.0.0.1
+  port: 3306
+
+
 production:
   adapter: mysql2
   encoding: utf8
@@ -32,3 +42,11 @@ production:
   password: GJomD7hGh
   host: mysql7.locum.ru
   socket: /var/run/mysqld/mysqld.sock
+
+  # adapter: mysql2
+  # encoding: utf8
+  # database: db_for_develop
+  # username: root
+  # password: 
+  # host: 127.0.0.1
+  # port: 3306
