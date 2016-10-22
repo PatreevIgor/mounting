@@ -17,4 +17,8 @@ class HomeController < ApplicationController
 
   def epdm
   end 
+
+  def yandex
+  end
 end
+
