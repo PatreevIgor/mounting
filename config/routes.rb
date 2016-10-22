@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get 'pvh' => 'home#pvh'
   get 'tpo' => 'home#tpo'
   get 'epdm' => 'home#epdm'
-  get 'yandex_738c29ffe6e7a152' => 'home#yandex'
+  get 'yandex_738c29ffe6e7a152' => 'yandex#yandex_738c29ffe6e7a152'
   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
